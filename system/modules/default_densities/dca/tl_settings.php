@@ -23,7 +23,8 @@ $GLOBALS['TL_DCA']['tl_settings']['palettes']['default'] = str_replace(',gdMaxIm
  */
 $GLOBALS['TL_DCA']['tl_settings']['fields']['defaultDensities'] = array
 (
-    'label'     => &$GLOBALS['TL_LANG']['tl_settings']['defaultDensities'],
-    'inputType' => 'text',
-    'eval'      => array('tl_class'=>'w50')
+    'label'       => &$GLOBALS['TL_LANG']['tl_settings']['defaultDensities'],
+    'inputType'   => 'text',
+    'explanation' => 'imageSizeDensities',
+    'eval'        => array('helpwizard'=>true, 'tl_class'=>'w50')
 );
