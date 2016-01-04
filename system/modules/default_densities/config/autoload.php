@@ -7,7 +7,7 @@
  *
  * @package   default_densities
  * @author    Fritz Michael Gschwantner <https://github.com/fritzmg>
- * @license   GNU/LGPL
+ * @license   LGPL-3.0+
  * @copyright Fritz Michael Gschwantner 2015
  */
 
