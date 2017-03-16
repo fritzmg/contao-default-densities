@@ -3,7 +3,7 @@
 /**
  * Contao Open Source CMS
  *
- * Copyright (c) 2005-2015 Leo Feyer
+ * Copyright (c) 2005-2016 Leo Feyer
  *
  * @package   default_densities
  * @author    Fritz Michael Gschwantner <https://github.com/fritzmg>
@@ -246,8 +246,8 @@ class Picture
 		{
 			$imageObj = clone $this->image;
 
-			$src = $imageObj->setTargetWidth($imageSize->width * $density)
-							->setTargetHeight($imageSize->height * $density)
+			$src = $imageObj->setTargetWidth((int) $imageSize->width * $density)
+							->setTargetHeight((int) $imageSize->height * $density)
 							->setResizeMode($imageSize->resizeMode)
 							->setZoomLevel($imageSize->zoom)
 							->executeResize()
