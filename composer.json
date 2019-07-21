@@ -1,37 +1,37 @@
 {
-	"name":"fritzmg/contao-default-densities",
-	"description":"This Contao extension replaces the Contao\\Picture class in order to be able to define default pixel densities/scale factors.",
-	"keywords":["contao", "picture", "densities", "dppx"],
-	"type":"contao-module",
-	"homepage":"http://www.inspiredminds.at",
-	"license":"LGPL-3.0+",
-	"authors":[
-		{
-			"name":"Fritz Michael Gschwantner",
-			"homepage":"http://www.inspiredminds.at",
-			"email":"fmg@inspiredminds.at",
-			"role":"Developer"
-		}
-	],
-	"support":{
-		"email":"fmg@inspiredminds.at",
-		"issues":"https://github.com/fritzmg/contao-default-densities/issues",
-		"source":"https://github.com/fritzmg/contao-default-densities",
-		"forum":"https://community.contao.org/de"
-	},
-	"require":{
-		"php":">=5.2",
-		"contao/core-bundle":"~3.0 || >=4.1,<4.3",
-		"contao-community-alliance/composer-plugin":"~2.4 || ~3.0"
-	},
-	"replace": {
-		"contao-legacy/default_densities": "self.version"
-	},
-	"extra":{
-		"contao":{
-			"sources":{
-				"system/modules/default_densities":"system/modules/default_densities"
-			}
-		}
-	}
+    "name": "fritzmg/contao-default-densities",
+    "description": "This Contao extension replaces the Contao\\Picture class in order to be able to define default pixel densities/scale factors.",
+    "keywords": ["contao", "picture", "densities", "dppx"],
+    "type": "contao-module",
+    "homepage": "http://www.inspiredminds.at",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Fritz Michael Gschwantner",
+            "homepage": "http://www.inspiredminds.at",
+            "email": "fmg@inspiredminds.at",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "fmg@inspiredminds.at",
+        "issues": "https://github.com/fritzmg/contao-default-densities/issues",
+        "source": "https://github.com/fritzmg/contao-default-densities",
+        "forum": "https://community.contao.org/de"
+    },
+    "require": {
+        "php": ">=5.2",
+        "contao/core-bundle": "~3.0 || >=4.1,<4.3",
+        "contao-community-alliance/composer-plugin": "~2.4 || ~3.0"
+    },
+    "replace": {
+        "contao-legacy/default_densities": "self.version"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "system/modules/default_densities": "system/modules/default_densities"
+            }
+        }
+    }
 }
